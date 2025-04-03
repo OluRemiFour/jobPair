@@ -6,7 +6,7 @@ const cron = require("node-cron"); // Import node-cron for scheduling tasks
 const { chromium } = require("playwright-extra");
 const stealth = require("puppeteer-extra-plugin-stealth");
 
-// Use stealth plugin
+// Use stealth plugin.
 chromium.use(stealth());
 
 const queryData =
